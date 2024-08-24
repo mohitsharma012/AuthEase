@@ -49,8 +49,8 @@
    JWT_SECRET=your_jwt_secret
    ```
   
-   (.env files are included in the repo for ease of setup. No API keys are required.)
-   (But make sure you don't add the .env file in the Production)
+   -(.env files are included in the repo for ease of setup. No API keys are required.)
+   -(But make sure you don't add the .env file in the Production)
 
 
 5. Start the servers:
