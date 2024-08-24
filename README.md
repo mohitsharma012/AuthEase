@@ -48,8 +48,12 @@
    MONGO_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
    ```
+  
+   (.env files are included in the repo for ease of setup. No API keys are required.)
+   (But make sure you don't add the .env file in the Production)
 
-4. Start the servers:
+
+5. Start the servers:
 
    ```bash
    cd Server
@@ -58,7 +62,7 @@
    npm start
    ```
 
-5. Access the application at `http://localhost:3000`.
+6. Access the application at `http://localhost:3000`.
 
 ## Project Structure
 
