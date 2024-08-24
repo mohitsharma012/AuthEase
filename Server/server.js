@@ -6,6 +6,8 @@ const bodyParser = require('body-parser');
 const connectDB = require('./Config/db');
 const userRoute = require('./Routes/userRoute');
 
+
+
 const app = express();                  
 
 // middlewares
@@ -22,6 +24,9 @@ connectDB();
 
 // api endpoints
 app.use('/api/user', userRoute);
+const dashboardRoute = require('./Routes/dashboardRoute');
+app.use('/api/dashboard', dashboardRoute);
+
 
 
 app.get('/', (req, res) => {
